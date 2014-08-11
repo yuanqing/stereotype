@@ -15,7 +15,7 @@ stereotype({});          //=> {}
 stereotype('foo');       //=> 'foo'
 ```
 
-More usage examples are in [the tests](https://github.com/yuanqing/stereotype/blob/master/spec/cast.spec.js).
+More usage examples are in [the tests](https://github.com/yuanqing/stereotype/blob/master/spec/stereotype.spec.js).
 
 ## API
 
