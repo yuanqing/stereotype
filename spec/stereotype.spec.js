@@ -3,7 +3,7 @@
 
 var stereotype = require('..');
 
-describe('stereotype(str)', function() {
+describe('stereotype(obj)', function() {
 
   describe('should cast the string to', function() {
 
