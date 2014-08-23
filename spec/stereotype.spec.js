@@ -16,7 +16,7 @@ describe('stereotype', function() {
     });
 
     it('NaN', function() {
-      expect(stereotype('NaN')).toEqual(NaN);
+      expect(isNaN(stereotype('NaN'))).toBe(true);
     });
 
     it('Infinity', function() {

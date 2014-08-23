@@ -2,6 +2,8 @@
 
 > Cast a string (where possible) to a primitive type.
 
+## Usage
+
 ```js
 stereotype('undefined'); //=> undefined
 stereotype('null');      //=> null
