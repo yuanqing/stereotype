@@ -3,9 +3,9 @@
 
 var stereotype = require('..');
 
-describe('stereotype', function() {
+describe('stereotype(str)', function() {
 
-  describe('should, if possible, cast a string to', function() {
+  describe('should cast the string to', function() {
 
     it('undefined', function() {
       expect(stereotype('undefined')).toBe(undefined);
